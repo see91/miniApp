@@ -33,7 +33,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        <TonConnectUIProvider manifestUrl="https://mini-app-blush-tau.vercel.app/tonconnect-manifest.json">
+        <TonConnectUIProvider manifestUrl="https://mini-app-sooty-kappa.vercel.app/tonconnect-manifest.json">
           {children}
         </TonConnectUIProvider>
         <ScrollRestoration />
